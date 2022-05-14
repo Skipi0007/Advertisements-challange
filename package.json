@@ -1,0 +1,13 @@
+{
+  "name": "newApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^9.6.1"
+  },
+
+  "scripts": {
+    "cy:runChallenge": "cypress run --spec cypress/integration/e2e/*.spec.js"
+  }
+}
