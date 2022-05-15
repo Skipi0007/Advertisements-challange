@@ -3,7 +3,7 @@
 describe('Api advertisements tests', function() {
 
     it('get to equal 200', function() {
-        cy.checkNegativeStatus( 'GET', '/api/advertisements/', 200 )
+        cy.checkPositiveStatus( 'GET', '/api/advertisements/', 200 )
     })
 
     it('post to equal 400', function() {
